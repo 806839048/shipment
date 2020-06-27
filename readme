@@ -1,0 +1,15 @@
+本程序分别提供拆分，合并，缩放的rest接口，完成货物的拆分，合并，比例缩放
+使用h2数据库存储，也存储了一份在内存树节点中
+1，拆分：
+调用说明：http://localhost/shipSplit/100/2:3:5
+货物总量：100
+拆分比列：2:3:5
+
+2，合并：
+调用说明：http://localhost/shipMeger/100/ship2,ship3
+合并节点名：ship2,ship3
+
+3，缩放：
+调用说明：http://localhost/shipRation/10
+新的根节点数量：10
+
